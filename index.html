@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Blog de música</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://use.fontawesome.com/df21bfda9c.js"></script>
+		<style type="text/css">
+
+			.flex-parent{
+			  display: -ms-flex;
+			  display: -webkit-flex;
+			  display: flex;
+			  align-items: flex-end;
+			}
+			
+			.flex-child{
+			  display: -ms-flex;
+			  display: -webkit-flex;
+			  display: flex;
+			  justify-content: flex-end;
+			  flex-direction: row;
+			}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row flex-parent">
+					<div class="col-sm-6">
+						<img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="logo" height="100px">					
+					</div>
+					<div class="col-sm-6 flex-child">
+						<a href="#">
+							<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+						</a> 
+						<a href="#">
+							<i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
+						</a> 
+						<a href="#">
+							<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+						</a> 
+						<a href="#">
+							<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>	
+						</a>
+					</div>					
+				</div>
+			</div>
+			<nav class="navbar">
+				<div class="container">
+					<ul class="nav nav-pills nav-justified">
+					  <li class="nav-item">
+					    <a class="" href="#">Item 1</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="" href="#">Item 2</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="" href="#">Item 3</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="" href="#">Item 4</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="" href="#">Item 5</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="" href="#">Item 6</a>
+					  </li>				  
+					</ul>
+				</div>
+			</nav>
+		</header>		
+		<br/>				
+		<div class="container">
+			<div class="row">			
+				<section class="col-sm-8">					
+					<article>
+						<h3>Artículo 1</h3>
+						<div class="row">							
+							<div class="col-sm-8">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ipsum optio, corporis nihil, vero distinctio, est et consectetur tenetur asperiores, dolorem perferendis temporibus. Possimus eum omnis suscipit nobis ipsam. Dignissimos?</p>
+							</div>
+							<div class="col-sm-4">
+								<img src="https://cdn.pixabay.com/photo/2016/03/21/20/05/image-1271454_1280.png" width="90%" align="center">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="comentarios">Commentario:</label>
+							<textarea class="form-control" rows="3" id="comment"></textarea>
+							<input type="submit" class="btn btn-info" value="Enviar comentario" /> 
+						</div>
+					</article>
+					<hr/>
+					<article>
+						<h3>Artículo 2</h3>
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="https://cdn.pixabay.com/photo/2016/03/21/20/05/image-1271454_1280.png" width="90%" align="center">
+							</div>							
+							<div class="col-sm-8">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ipsum optio, corporis nihil, vero distinctio, est et consectetur tenetur asperiores, dolorem perferendis temporibus. Possimus eum omnis suscipit nobis ipsam. Dignissimos?</p>
+							</div>							
+						</div>
+						<div class="form-group">
+							<label for="comentarios">Commentario:</label>
+							<textarea class="form-control" rows="3" id="comment"></textarea>
+							<input type="submit" class="btn btn-info" value="Enviar comentario" /> 
+						</div>
+					</article>
+					<hr/>
+				</section>
+				<aside class="col-sm-4">
+					<div class="input-group">
+				      <input type="text" class="form-control" placeholder="Buscar...">
+				      <span class="input-group-btn">
+				        <button class="btn btn-default" type="button"></button>
+				      </span>
+				    </div>
+				    <ul class="list-group">
+					  <li class="list-group-item">Lorem ipsum dolor.</li>
+					  <li class="list-group-item">Lorem ipsum dolor.</li>
+					  <li class="list-group-item">Lorem ipsum dolor.</li>
+					  <li class="list-group-item">Lorem ipsum dolor.</li>
+					  <li class="list-group-item">Lorem ipsum dolor.</li>
+					</ul>			
+				</aside>
+			</div>
+		</div>		
+	</body>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</html>
